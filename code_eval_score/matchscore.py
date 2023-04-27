@@ -5,7 +5,7 @@ import numpy as np
 from collections import defaultdict
 from transformers import AutoTokenizer
 
-from utils import (
+from code_eval_score.utils import (
     get_model,
     bert_chunk_cos_score,
     get_bert_embedding,
